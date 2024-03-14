@@ -8,6 +8,20 @@
    
 }
 
+
+a .btn-whats {
+    position: fixed;
+    top: 85%;
+    z-index: 1;
+    margin-left: 90%;
+    margin-bottom: 2rem;
+    font-weight: 2rem;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 30%;
+   
+}
+
 .nav-bar{
     display: flex;
     justify-content: space-around;
@@ -15,7 +29,7 @@
     align-items: center;
     justify-content: space-around;
     justify-items: center;
-    border-bottom: 2px solid rgb(236, 74, 101);
+    border-bottom: 2px solid rgb(233, 103, 125);
 }
 .logo img{
     display: flex;
@@ -105,13 +119,16 @@
 
 .i-cards{
    display: grid;
-   grid-gap: 5rem;
+   grid-gap: 5rem 2rem;
+   row-gap: 7rem;
    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
    justify-content: center;
    justify-items: center;
    padding: 30px;
    margin-bottom: 2rem;
+  
 }
+
 
 .titulo-main h1{
     text-align: center;
@@ -218,11 +235,13 @@
     padding: 1rem;
 }
 .container-compra  {
-    min-height: 100vh;
-    margin: 2rem;
-    margin-bottom: 2rem;
-    min-width: auto;
-    text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   justify-items: center;
+   margin: 0 auto;
+   padding: 2rem 0;
+   text-align: center;
     
 }
 .container-compra h2, h3{
@@ -231,14 +250,18 @@
     font-size: 1rem;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
+    text-align: center;
+    margin: 0 auto;
     
 }
 .contato-compra{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    text-align: center;
+   flex-direction: column;
+   justify-content: center;
+   justify-items: center;
+   margin: 0 auto;
+   gap: 2rem;
+    
 }
 .contato-compra div{
     display: flex;
@@ -264,9 +287,11 @@
 
 .container-compra {
     min-height: 100vh;
-    margin-left: auto;
+    margin: 0 auto;
     display: flex;
     gap: 2rem;  
+    font-size: 1.2rem;
+    gap: 1rem;
 }
 .container-compra h2, h3{
      
@@ -300,8 +325,19 @@
     min-height: 100vh;
     margin: 0 auto;
     text-align: center;
-    width: 50%;
+    width: 80%;
     font-size: 2rem;
+    
+}
+.container-envio p{
+    letter-spacing: 1px;
+    font-size: 2rem;
+    text-align: left;
+    padding: 2rem 0;
+    
+}
+.container-envio span{
+    color: #e4429b;
     
 }
 .container-envio h2{
@@ -313,18 +349,24 @@
 
 .container-info {
     display: flex;
-    min-height: 100vh;
-    min-width: 100%;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 2rem;
     align-items: center;
-    justify-content: space-between;
+
 }
 .info .conteudo{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    flex-direction: row;
 }
 .conteudo img {
     width: 300px;
+}
+.conteudo p{
+    width: 40%;
+    
 }
 .card a img{
     align-items: center;
@@ -516,6 +558,17 @@
         aspect-ratio: 1;
         object-fit: cover;
     }
+    a .btn-whats {
+        position: fixed;
+        top: 85%;
+        z-index: 1;
+        margin-left: 70%;
+        margin-bottom: 2rem;
+        background-color: #f3c8dc;
+        padding: 7px;
+        border-radius: 30%;
+       
+    }
 
     .container-principal .i-cards{
         display: grid;
@@ -574,12 +627,12 @@
     }
     .nav-bar{
         padding: 1.5rem 2rem;  
-        background-color: rgb(241, 186, 196); 
+        background-color: #fff; 
         
        
      }
      .nav-link li a{
-        color: #fff;
+        color: #bd88a5;
         text-align: right;
      }
     
@@ -617,7 +670,7 @@
         color: #000;
         padding: 1rem;
         text-align: left;
-        font-size: 1.2rem;
+        font-size: 1rem;
        
     }
      .container section .card {
@@ -635,6 +688,7 @@
     }
     .card strong{
         margin-bottom: 5rem;
+        font-size: 0.5rem;
     }
 
 
@@ -719,6 +773,14 @@
         flex-direction: column;
         align-items: center;
         gap: 10px;
+    }
+    .container-envio{
+        min-height: 100vh;
+        margin: 0 auto;
+        text-align: center;
+        width: 80%;
+        font-size: 1.5rem;
+        
     }
     
 }
