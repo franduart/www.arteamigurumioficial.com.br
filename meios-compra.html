@@ -7,70 +7,83 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>Ateliê Art e Amigurumi</title>
+<link rel="shortcut icon" href="assets/cegonha.png" type="image/cegonha.png" style="width: 250px;">
+<title>Ateliê Art e Amigurumi</title>
 </head>
 <body>
     <header>
         <nav class="nav-bar">
+
             <div class="logo">
-              <a href="index.html"><img src="assets/Logotipo Personal Organizer .png" alt="" width="150"></a>
-               
+              <a href="index.html"><img src="assets/Art e amigurumi (1).png" alt="" width="200" style="padding: 1rem 0;"></a> 
             </div>
-  
+    
             <div class="nav-list">
                 <ul class="nav-link">
-                  <li><a href="index.html">home</a></li>
-                  <li><a href="contato.html">Contato</a></li>
-                  <li><a href="informacoes.html">Informações</a></li>
+                  <li><a href="index.html"><img src="assets/loja.png" class="icon"  width="50" alt="" style="margin-left: 15px;">home</a></li>
+                  <li><a href="contato.html"><img src="assets/contato.png" class="icon" width="50">Contato</a></li>
+                  <li><a href="informacoes.html"><img src="assets/mais-informacoes.png" class="icon" width="50">Informações</a></li>
                 </ul>
             </div>
-            <div class="mobile-menu-icon">
-                <button onclick="menuShow()">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-                      </svg>
-                </button>
-              </div>
-              <div class="mobile-menu">
-                
-                <ul class="nav-link">
+                  
+            <div class="menu-mobile">
+            <div class="mobile-menu-icon" style="display: flex; align-items: center; flex-direction: column; margin: 0 auto;">
     
-                    <a class="logo" href="assets/Logotipo Personal Organizer .png"></a>
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                    <li><a href="informacoes.html">Informações</a></li>
-                  </ul>
-              </div>
-            </nav>
+              <img src="assets/Art e amigurumi (1).png" width="150" alt="">
+              <button onclick="menuShow()">
+                  
+                  <img src="assets/remover.png" width="70" alt="" class="remove">
+                  <img src="assets/cardapio.png" width="50" alt="" class="menu" style="background-color: #fff;">
+                 
+              </button>
+            </div>
+    
+            <div class="mobile-menu">
+              <ul class="nav-link">
+                  <li><a href="index.html"><img src="assets/loja.png" class="icon"  width="50" alt="" style="margin-left: 15px;">home</a></li>
+                  <li><a href="contato.html"><img src="assets/contato.png" class="icon" width="50">Contato</a></li>
+                  <li><a href="informacoes.html"><img src="assets/mais-informacoes.png" class="icon" width="50">Informações</a></li>
+              
+                    </ul>
+            </div>
+          </div>
+          </nav>
             <hr>
 
     </header>
 
     <main class="container-compra" id="produtos">
-        <a href="https://www.elo7.com.br/ateliearteamigurumi?utm_source=blog&utm_medium=store_button" title="Confira minha loja no Elo7">
-            <img src="https://images.elo7.com.br/assets/new/botao1.png" alt="Elo7"></a>
-
+    
         <section>
-            <h2>
-                Meios de Compra
-            </h2>
+            <h1>
+                Meios de compra
+                <img src="assets/carrinho.png" width="100" style="text-align: center;" >
+            </h1>
 
-            <p>Aceitamos várias formas de pagamento. Na hora da compra, é possivel conferir todas as formas de pagamento que oferecemos.</p>
+            <p>Aceitamos várias formas de pagamento. 
+               <br> Na hora da compra, é possivel conferir todas as formas de pagamento que oferecemos.</p>
             <p>O pagamento é seguro, e é feito através da plataforma PagBank.</p>
-            <h3>Aceitamos:</h3>
+            <h3>Métodos de compra que oferecemos:</h3>
             <li>Boleto</li>
             <li>Cartão de crédito/Débito</li>
             <li>Pix</li>
             <li>Transferência Bancária </li>
        </section>
+       <section>
+        <h2>A compra é segura <img src="assets/icons8-seguro-48.png"  width="80"> </h2>
+        
+        <h2>A entrega é  feita <br> pelos Correios  <img src="assets/icons8-correio-64.png" width="80"></h2>
+       
+       </section>
     </main>
 
     <footer class="menu-rodape">
-        <section>
+        <div class="footer">
      <div>
-        <a href=""><h4>Contato</h4></a>
+        <h4>Contato</h4>
+        <a href=""> <p> WhatsApp</p></a>
         <a href="https://www.instagram.com/art_eamigurumi?igsh=MXdmN3JudjJodWV1" target="_blank"> <p>Instagram</p></a>
-        <p>Ubatuba-SP</p>
+        <p><img src="assets/pin-de-localizacao.png" width="40">Ubatuba - SP</p>
     </div>
 
     <div>
@@ -78,11 +91,11 @@
         <a href="prazo-envio.html"> <p>Prazo de envio</p></a>
         <a href="meios-compra.html"><p>Meios de compra</p></a>
     </div>
-</section>
+</div>
     <hr>
 
     <div class="copy"> 
-        <p>&#169 Copyrigth Ateliê Art e Amigurumi 2024</p>
+        <p>&#169 Copyrigth Ateliê Art e Amigurumi - 2024</p>
         <p>Desenvolvido por Fran.Dev</p>
     </div>
    
