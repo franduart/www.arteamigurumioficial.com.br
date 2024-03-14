@@ -120,7 +120,7 @@ a .btn-whats {
 .i-cards{
    display: grid;
    grid-gap: 5rem 2rem;
-   row-gap: 7rem;
+   row-gap: 10rem;
    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
    justify-content: center;
    justify-items: center;
@@ -581,9 +581,19 @@ a .btn-whats {
         justify-content: center;
         justify-items: center;
         padding: 30px;
-      
        
      }
+    .i-cards{
+   display: grid;
+   grid-gap: 5rem 2rem;
+   row-gap: 10rem;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   justify-content: center;
+   justify-items: center;
+   padding: 30px;
+   margin-bottom: 2rem;
+  
+}
     
 
     .nav-bar{
