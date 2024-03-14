@@ -5,43 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>Ateliê Art e Amigurumi</title>
+<link rel="shortcut icon" href="assets/cegonha.png" type="image/cegonha.png" style="width: 250px;">
+<title>Ateliê Art e Amigurumi</title>
 </head>
 <body>
     <header>
-        <nav class="nav-bar">
-            <div class="logo">
-              <a href="index.html"><img src="assets/Logotipo Personal Organizer .png" alt="" width="150"></a>
-               
-            </div>
-  
-            <div class="nav-list">
-                <ul class="nav-link">
-                  <li><a href="index.html">home</a></li>
-                  <li><a href="contato.html">Contato</a></li>
-                  <li><a href="informacoes.html">Informações</a></li>
+      <nav class="nav-bar">
+
+        <div class="logo">
+          <a href="index.html"><img src="assets/Art e amigurumi (1).png" alt="" width="200" style="padding: 1rem 0;"></a> 
+        </div>
+
+        <div class="nav-list">
+            <ul class="nav-link">
+              <li><a href="index.html"><img src="assets/loja.png" class="icon"  width="50" alt="" style="margin-left: 15px;">home</a></li>
+              <li><a href="contato.html"><img src="assets/contato.png" class="icon" width="50">Contato</a></li>
+              <li><a href="informacoes.html"><img src="assets/mais-informacoes.png" class="icon" width="50">Informações</a></li>
+            </ul>
+        </div>
+              
+        <div class="menu-mobile">
+        <div class="mobile-menu-icon" style="display: flex; align-items: center; flex-direction: column; margin: 0 auto;">
+
+          <img src="assets/Art e amigurumi (1).png" width="150" alt="">
+          <button onclick="menuShow()">
+              
+              <img src="assets/remover.png" width="70" alt="" class="remove">
+              <img src="assets/cardapio.png" width="50" alt="" class="menu" style="background-color: #fff;">
+             
+          </button>
+        </div>
+
+        <div class="mobile-menu">
+          <ul class="nav-link">
+              <li><a href="index.html"><img src="assets/loja.png" class="icon"  width="50" alt="" style="margin-left: 15px;">home</a></li>
+              <li><a href="contato.html"><img src="assets/contato.png" class="icon" width="50">Contato</a></li>
+              <li><a href="informacoes.html"><img src="assets/mais-informacoes.png" class="icon" width="50">Informações</a></li>
+          
                 </ul>
-            </div>
-            <div class="mobile-menu-icon">
-                <button onclick="menuShow()">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-                      </svg>
-                </button>
-              </div>
-              <div class="mobile-menu">
-                
-                <ul class="nav-link">
-    
-                    <a class="logo" href="assets/Logotipo Personal Organizer .png"></a>
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                    <li><a href="informacoes.html">Informações</a></li>
-                  </ul>
-              </div>
-            </nav>
+        </div>
+      </div>
+      </nav>
+     
             <hr>
 
     </header>
@@ -52,7 +60,7 @@
         <div class="conteudo">
 
         
-      <div>
+      
         <h3>Como lavar seu amigurumi?</h3>
         <p>Com sabão neutro, lavar na mão ou na máquina no modo <strong>delicado</strong>. <br> Nunca pendure no varal, isso pode esticar a peça <br>Deixar secar na sombra.</p>
       </div>
@@ -67,28 +75,28 @@
     </main>
 
     <footer class="menu-rodape">
-        <div class="footer">
-     <div>
-        <h4>Contato</h4>
-        <a href=""> <p> WhatsApp</p></a>
-        <a href="https://www.instagram.com/art_eamigurumi?igsh=MXdmN3JudjJodWV1" target="_blank"> <p>Instagram</p></a>
-        <p>Ubatuba-SP</p>
-    </div>
+      <div class="footer">
+   <div>
+      <h4>Contato</h4>
+      <a href=""> <p> WhatsApp</p></a>
+      <a href="https://www.instagram.com/art_eamigurumi?igsh=MXdmN3JudjJodWV1" target="_blank"> <p>Instagram</p></a>
+      <p><img src="assets/pin-de-localizacao.png" width="40">Ubatuba - SP</p>
+  </div>
 
-    <div>
-        <h4>Informações de Compra</h4>
-        <a href="prazo-envio.html"> <p>Prazo de envio</p></a>
-        <a href="meios-compra.html"><p>Meios de compra</p></a>
-    </div>
+  <div>
+      <h4>Informações de Compra</h4>
+      <a href="prazo-envio.html"> <p>Prazo de envio</p></a>
+      <a href="meios-compra.html"><p>Meios de compra</p></a>
+  </div>
 </div>
-    <hr>
+  <hr>
 
-    <div class="copy"> 
-        <p>&#169 Copyrigth Ateliê Art e Amigurumi - 2024</p>
-        <p>Desenvolvido por Fran.Dev</p>
-    </div>
-   
-    </footer>
+  <div class="copy"> 
+      <p>&#169 Copyrigth Ateliê Art e Amigurumi - 2024</p>
+      <p>Desenvolvido por Fran.Dev</p>
+  </div>
+ 
+  </footer>
     <script src="script.js"></script>
 </body>
 </html>
