@@ -569,6 +569,9 @@ a .btn-whats {
         border-radius: 30%;
        
     }
+     #produtos{
+        margin-bottom: 10rem;
+    }
 
     .container-principal .i-cards{
         display: grid;
