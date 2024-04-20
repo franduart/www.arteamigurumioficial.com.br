@@ -3,14 +3,18 @@ function menuShow() {
     let menuMobile = document.querySelector('.mobile-menu');
     if (menuMobile.classList.contains('open')) {
         menuMobile.classList.remove('open');
-       document.querySelector('.menu').src = "assets/cardapio.png";
+       document.querySelector('.menu').src = "assets/cardapio1.png";
     } else {
         menuMobile.classList.add('open');
-         document.querySelector('.menu').src = "assets/remover.png";
+         document.querySelector('.menu').src = "assets/excluir.png";
  
     }
     
 }
+
+
+
+
 
 
 
