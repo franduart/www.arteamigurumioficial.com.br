@@ -7,13 +7,17 @@
    
    
 }
+#produtos{
+    padding: 2rem 0;
+  }
+
 
 
 a .btn-whats {
     position: fixed;
-    top: 85%;
+    top: 80%;
     z-index: 1;
-    margin-left: 90%;
+    margin-left: 85%;
     margin-bottom: 2rem;
     font-weight: 2rem;
     background-color: #fff;
@@ -29,12 +33,13 @@ a .btn-whats {
     align-items: center;
     justify-content: space-around;
     justify-items: center;
-    border-bottom: 2px solid rgb(233, 103, 125);
+    background-color: #b8d8e3;
+
 }
 .logo img{
     display: flex;
     align-items: center;
-    width: 250px;
+    width: 200px;
   
 }
 .nav-list{
@@ -52,7 +57,7 @@ a .btn-whats {
 }
 .nav-link a {
     display: flex;
-    padding: 1.5rem 1rem;
+    padding: 1rem 1rem;
     justify-items: center;
     flex-direction: column;
     align-items: center;
@@ -61,11 +66,12 @@ a .btn-whats {
 }
 .nav-link a{
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin-left: 2.5rem;
     text-transform: uppercase;
-    color: rgb(226, 45, 76);
+    color: #535878;
     font-weight: 500;
+    
 }
 .mobile-menu-icon .remove {
     display: none;
@@ -78,7 +84,7 @@ a .btn-whats {
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    margin: 0 auto;
+   
 }
 
 .mobile-menu-icon{
@@ -154,6 +160,7 @@ a .btn-whats {
     object-fit: cover;
     
     
+    
 }
 
 .card a {
@@ -195,11 +202,11 @@ a .btn-whats {
 }
 .menu-rodape{
     overflow-x: hidden;
-    border: 1px solid rgb(240, 139, 156);
     padding-top: 1rem;
     color: #fff;
-    background-color: rgb(223, 110, 129);
+    background-color: #535878;
     max-width: 100%;
+    margin-top: 2rem;
 }
 
 .footer {
@@ -208,11 +215,27 @@ a .btn-whats {
     justify-content: space-around;
     justify-items: center;
     padding: 1rem 1rem;
+    
 }
+.pagamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    gap: 1rem;
+    border-bottom: 1px solid #b8d8e3;
+    
+}
+.pagamento img{
+    border-radius: 10px;
+}
+
 .footer div h4{
     text-align: center;
     padding-right: 2rem;
     color: #f3f3f3;
+    font-size: 1.5rem;
 }
 .menu-rodape div h4{
     font-size: 1.5rem;
@@ -268,6 +291,7 @@ a .btn-whats {
     align-items: center;
     width: 100%;
     margin-top: 2rem;
+    flex-direction: row;
 }
 .contato-compra div a{
     background-color: transparent;
@@ -456,6 +480,7 @@ a .btn-whats {
      }
      .nav-bar{
         padding: 1.5rem 4rem;
+        background-color: #b8d8e3;
      }
      .nav-item{
         display: none;
@@ -553,14 +578,15 @@ a .btn-whats {
 }
 @media (max-width: 480px) {
     .card a img{
-        max-width: 100%;
-        max-height: 80%;
+        width: 100%;
+        height: 100%;
         aspect-ratio: 1;
         object-fit: cover;
+        
     }
     a .btn-whats {
         position: fixed;
-        top: 85%;
+        top: 80%;
         z-index: 1;
         margin-left: 70%;
         margin-bottom: 2rem;
@@ -569,29 +595,46 @@ a .btn-whats {
         border-radius: 30%;
        
     }
-     #produtos{
-        margin-bottom: 10rem;
+    .pagamento {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 2rem;
+        padding: 2rem 0;
+        gap: 1rem;
+        border-bottom: 1px solid #b8d8e3;
+        
     }
-   
+    .pagamento img{
+        width: 90%;
+    }
 
     .container-principal .i-cards{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         width: 80%;
-        margin: 0 auto;
+        
         text-align: center; 
         margin: 5rem 0;
-        grid-gap: 8rem 2rem;
+        grid-gap: 10rem 2rem;
         justify-content: center;
         justify-items: center;
-        padding: 30px;
+        padding: 40px;
       
        
      }
-    
-
+     .card{
+        margin-bottom: 2rem 0;
+        
+     }
+     .card strong{
+        margin-top: 2rem;
+     }
+ 
     .nav-bar{
         padding: 1.5rem 4rem;
+        background-color: #b8d8e3;
+        
      }
      .nav-item{
         display: none;
@@ -626,23 +669,26 @@ a .btn-whats {
     .nav-link {
         display: block;
         list-style: none;
-        padding-top: 10rem;
+       
 
     }
     .nav-bar{
         padding: 1.5rem 2rem;  
-        background-color: #fff; 
+        background-color: #b8d8e3;
         
        
      }
      .nav-link li a{
-        color: #bd88a5;
-        text-align: right;
+        color: #535878;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
      }
     
      .mobile-menu-icon{
         display: block;
         text-align: center;
+       width: 100px;
      }
      .nav-list .nav-link{
         display: none;
@@ -709,14 +755,20 @@ a .btn-whats {
         justify-content: center;
         justify-items: center;
         padding: 1rem 1rem;
+        
+    }
+    #produtos{
+        margin-bottom: 10rem;
     }
     .footer div h4{
         padding: 1rem;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #b8d8e3;
     }
     .footer div a{
      padding-bottom: 10px;
+     
     }
     .container-compra {
         min-height: 100vh;
@@ -743,10 +795,13 @@ a .btn-whats {
         text-align: center;
         font-family: "Poppins", sans-serif;
         font-weight: bold;
-        padding: 0 2rem;
+        padding: 1rem 2rem;
+        color: #fff;
+        font-size: 1.2rem;
     }
     .menu-rodape .footer h3, h4{
-        font-size: 1rem;
+        font-size: 1.5rem;
+
     }
     .container-info {
         margin: 0 auto;
@@ -785,6 +840,14 @@ a .btn-whats {
         width: 80%;
         font-size: 1.5rem;
         
+    }
+    .menu-rodape{
+        overflow-x: hidden;
+        padding-top: 1rem;
+        color: #fff;
+        background-color: #535878;
+        max-width: 100%;
+        margin-top: 2rem;
     }
     
 }
