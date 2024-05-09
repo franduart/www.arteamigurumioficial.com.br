@@ -124,14 +124,12 @@ a .btn-whats {
 }
 
 .i-cards{
-   display: grid;
-   grid-gap: 5rem 2rem;
-   row-gap: 7rem;
-   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-   justify-content: center;
-   justify-items: center;
-   padding: 30px;
-   margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin: 1rem;
+  align-items: center;
+  justify-content: center;
   
 }
 
@@ -153,14 +151,21 @@ a .btn-whats {
 
 
 .card{
-    aspect-ratio: 1;
-    min-height: 100%;
-    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
     text-align: center;
-    object-fit: cover;
+    height: 100%;
+    border: 1px solid #e4429b;
+    height: 100%;
     
     
     
+}
+.card p{
+    width: 80%;
 }
 
 .card a {
@@ -173,15 +178,14 @@ a .btn-whats {
     opacity: 0.9;
  }
  .card a img{
-    min-width: 100%;
-    min-height: 100%;
+    width: 300px;
+    height: 300px;
     aspect-ratio: 1;
     object-fit: cover;
+    border-radius: 10px;
+
    }
- .card a strong{
-    font-size: 1.2rem;
-   padding-bottom: 2rem;
-   }
+
 
 
 .info div{
@@ -584,6 +588,9 @@ a .btn-whats {
         object-fit: cover;
         
     }
+    .card strong{
+        font-size: 10px;
+    }
     a .btn-whats {
         position: fixed;
         top: 80%;
@@ -623,13 +630,8 @@ a .btn-whats {
       
        
      }
-     .card{
-        margin-bottom: 2rem 0;
-        
-     }
-     .card strong{
-        margin-top: 2rem;
-     }
+     
+    
  
     .nav-bar{
         padding: 1.5rem 4rem;
@@ -736,9 +738,12 @@ a .btn-whats {
      
         max-width: 100%;
     }
-    .card strong{
+    .card div strong{
         margin-bottom: 5rem;
-        font-size: 0.5rem;
+        font-size: 5px;
+    }
+    .card p{
+        font-size: 15px;
     }
 
 
